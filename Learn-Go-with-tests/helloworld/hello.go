@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	internal "helloworld/internal"
 )
 
 func Hello() string {
@@ -10,4 +11,5 @@ func Hello() string {
 
 func main() {
 	fmt.Println(Hello())
+	fmt.Println(internal.ModularHello())
 }
